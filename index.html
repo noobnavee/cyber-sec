@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Consultancy</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Basic styling for the layout */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 15px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 15px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        nav ul li a:hover {
+            background-color: #3498db;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        /* Hero Section Styling */
+        #hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #34495e;
+            color: #fff;
+        }
+
+        #hero h1 {
+            font-size: 3em;
+            color: #fff;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            color: #fff;
+            background-color: #e74c3c;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #c0392b;
+        }
+
+        /* Services Section Styling */
+        #services {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #ecf0f1;
+        }
+
+        .service-card {
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            max-width: 450px;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-card h3 {
+            color: #3498db;
+        }
+
+        .learn-more {
+            color: #3498db;
+            text-decoration: underline;
+        }
+
+        /* About Us Section Styling */
+        #about {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #f7f7f7;
+        }
+
+        /* Prevention Quote Section Styling */
+        #prevention-quote {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #f39c12;
+            color: #fff;
+        }
+
+        #prevention-quote blockquote {
+            font-size: 2em;
+            color: #fff;
+            margin: 20px auto;
+            max-width: 800px;
+            font-style: italic;
+            line-height: 1.6;
+        }
+
+        /* Contact Section Styling */
+        #contact {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #ecf0f1;
+        }
+
+        #contact form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        #contact input, 
+        #contact textarea, 
+        #contact button {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #contact textarea {
+            resize: vertical;
+            height: 150px;
+        }
+
+        #contact button {
+            background-color: #e74c3c;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        #contact button:hover {
+            background-color: #c0392b;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: #fff;
+            font-size: 0.9em;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <h1>Cyber Guardians</h1>
+            <p>Expert cybersecurity services to safeguard your business against modern threats.</p>
+            <a href="#services" class="btn">Explore Our Services</a>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="service-card">
+                <h3>Vulnerability Assessment & Penetration Testing (VAPT)</h3>
+                <p>Our VAPT services identify and mitigate security vulnerabilities through thorough testing. Using advanced techniques, we reveal potential weaknesses before they can be exploited, strengthening your digital defenses.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+            <div class="service-card">
+                <h3>Cybersecurity Auditing</h3>
+                <p>Our auditing services evaluate your current security posture. Through compliance checks, risk assessments, and policy reviews, we provide actionable insights that help you meet regulatory standards and improve security.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+            <div class="service-card">
+                <h3>Cybersecurity Training by Experts</h3>
+                <p>Our expert-led training programs empower your team to defend against cyber threats. Covering topics from threat detection to incident response, our customizable training strengthens your organization’s security culture.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At Cyber Security Consultancy, we are a team of certified cybersecurity professionals dedicated to protecting your business’s digital assets. With years of experience and a commitment to excellence, we offer custom cybersecurity solutions tailored to meet your unique needs.</p>
+            <p><strong>Our Mission:</strong> To empower businesses by fortifying their digital infrastructure and creating resilient cybersecurity frameworks to counter evolving cyber threats.</p>
+            <p><strong>Our Values:</strong> Integrity, trust, and innovation. We adhere to the highest ethical standards, ensuring confidentiality and reliability in every client engagement. Our continuous investment in cutting-edge technologies keeps us at the forefront of cybersecurity advancements.</p>
+        </section>
+
+        <!-- Prevention Quote Section -->
+        <section id="prevention-quote">
+            <blockquote>"Prevention is better than Cure!"</blockquote>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions or ready to improve your security posture? Get in touch with us!</p>
+            <form action="https://formspree.io/f/mnnqvday" method="POST">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Cyber Guardians. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
