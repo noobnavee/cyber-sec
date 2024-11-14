@@ -20,6 +20,7 @@ Hosted on GitHub Pages for seamless accessibility and scalability.
 Fully functional Contact Us feature included using Formspree.
 
 Project Link: https://noobnavee.github.io/cyber-sec/
+
 Technologies Used: HTML, CSS, JavaScript, Formspree, GitHub Pages & Chat-GPT.
 
 Project Goal:-- 
